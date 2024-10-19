@@ -7,16 +7,23 @@
   </head>
   <body>
     <form>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" value="Search" />
+      <input
+        type="search"
+        placeholder="Enter a city..."
+        required
+        class="search-bar"
+      />
+      <input type="submit" value="Search" class="search-bar-button" />
     </form>
-    <h1>Houston</h1>
-    <p>
+    <h1 class="searched-city">Houston</h1>
+    <p class="weather-details">
       Tuesday 17:50, moderate rain
       <br />
       Humidity: 87%, Wind: 7.2km/h
     </p>
-    <div>🌤 85°F</div>
+    <div class="icon">🌤</div>
+    <div class="temperature">85°</div>
+    <div class="unit">F</div>
     <footer>
       This site was coded by
       <a href="https://github.com/AlondraHackerBae" target="_blank"
