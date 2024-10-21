@@ -1,3 +1,35 @@
+body {
+  background-color: rgb(249, 247, 254);
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px;
+  width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
 .searched-city {
   color: blue;
+}
+
+.search-bar {
+  width: 80%;
+}
+.search-bar-button {
+  color: white;
+}
+
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  text-align: center;
+}
+a {
+  color: rgb(136, 93, 241);
+}
+.temperature-details {
+  display: flex;
+  font-size: 50;
 }
