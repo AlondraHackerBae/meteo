@@ -15,19 +15,20 @@
   <body>
     <div class="container">
       <header>
-        <form>
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-bar"
+            id="search-bar"
           />
           <input type="submit" value="Search" class="search-bar-button" />
         </form>
       </header>
       <div class="weather-app-data">
         <div>
-          <h1 class="searched-city">Houston</h1>
+          <h1 class="searched-city" id="city">Houston</h1>
           <p class="weather-details">
             Tuesday 17:50, moderate rain
             <br />
@@ -53,5 +54,6 @@
         <a href="https://weatherapphw.netlify.app/" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
