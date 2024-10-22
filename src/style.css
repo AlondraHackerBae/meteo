@@ -22,7 +22,10 @@ header {
 }
 
 .searched-city {
-  color: blue;
+  color: black;
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
 }
 
 .search-bar {
@@ -53,7 +56,33 @@ footer {
 a {
   color: rgb(136, 93, 241);
 }
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+.weather-details strong {
+  color: rgb(246, 82, 130);
+}
 .temperature-details {
   display: flex;
-  font-size: 50;
+}
+.icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.unit {
+  margin-top: 16px;
+  font-size: 28px;
 }
