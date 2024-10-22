@@ -74,8 +74,8 @@ a {
   display: flex;
 }
 .icon {
-  font-size: 44px;
-  margin-top: 22px;
+  font-size: 88px;
+  height: 88px;
 }
 .temperature {
   font-size: 88px;
